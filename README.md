@@ -1,4 +1,6 @@
 # youtube_clone
+## Demo
+***
 
 ## Contributors
 ***
@@ -12,7 +14,6 @@
 ***
 This project is a clone of the YouTube desktop application built with HTML and CSS.
 
+This was done as a team project for the ADA Project frontend track- Team Caucasian.
+
 The objective is to use semantic HTML, working with media and setting up the HTML layout. 
-
-
-
