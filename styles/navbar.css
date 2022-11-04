@@ -33,6 +33,7 @@
 .category:last-child{
     margin-right: 0;
 }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -69,19 +70,25 @@ header{
     border-bottom-right-radius: 50px;
     cursor: pointer;
 }
+
 .search-btn:hover{
     background-color: #F0F0F0;
 }
+
 .menu-icons{
     display: grid;
     grid-template-columns: repeat(5, auto);
     gap: 1.5rem;
-    align-items: center;
-     
+    align-items: center;    
+}
+
+.menu-icons img{
+    width: 30px;
+    height: 30px;
 }
 .avatar{
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: #AAA;
 }
