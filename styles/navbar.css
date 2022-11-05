@@ -96,3 +96,74 @@ header{
     margin-left: -105px;
     width: 25px;
 }
+
+/* Tooltip styling */
+.search-btn,
+.voiceSearchBtn,
+.uploadIconContainer,
+.appsContainer,
+.notificationsIconContainer,
+.profileIconContainer,
+.homeContainer,
+.exploreContainer,
+.subscriptionContainer,
+.libraryContainer,
+.historyContainer,
+.playlistContainer,
+.messageContainer,
+.showMoreContainer,
+.profileContainer{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.search-btn .tooltip,
+.voiceSearchBtn .tooltip,
+.uploadIconContainer .tooltip,
+.appsContainer .tooltip,
+.notificationsIconContainer .tooltip,
+.profileIconContainer .tooltip,
+.homeContainer .tooltip,
+.exploreContainer .tooltip,
+.subscriptionContainer .tooltip,
+.libraryContainer .tooltip,
+.historyContainer .tooltip,
+.playlistContainer .tooltip,
+.messageContainer .tooltip,
+.showMoreContainer .tooltip,
+.profileContainer .tooltip{
+    position: absolute;
+    bottom:-30px;
+    background-color: gray;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 1s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.search-btn:hover .tooltip,
+.voiceSearchBtn:hover .tooltip,
+.uploadIconContainer:hover .tooltip,
+.appsContainer:hover .tooltip,
+.notificationsIconContainer:hover .tooltip,
+.profileIconContainer:hover .tooltip,
+.homeContainer:hover .tooltip,
+.exploreContainer:hover .tooltip,
+.subscriptionContainer:hover .tooltip,
+.libraryContainer:hover .tooltip,
+.historyContainer:hover .tooltip,
+.playlistContainer:hover .tooltip,
+.messageContainer:hover .tooltip,
+.showMoreContainer:hover .tooltip,
+.profileContainer:hover .tooltip{
+    opacity: 1;
+}
+
+/* Tooltip styling ends here */
