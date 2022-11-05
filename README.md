@@ -2,6 +2,9 @@
 
 ## Demo
 
+This website was deployed using Vercel. Have a closer look at it here:
+[YouTube_Clone](https://youtube-clone-roan-ten.vercel.app/)
+
 ---
 
 ## Contributors
@@ -12,6 +15,12 @@
 - [Valentina Onwuli](https://github.com/Vhinwe)
 - [Glory Okafor](https://github.com/glowwEE)
 - [Ejibode Ibraheem](https://github.com/Linsmed)
+
+---
+
+## Built With
+- HTML5
+- CSS
 
 ---
 
