@@ -4,6 +4,12 @@
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
     margin-left: 12rem;
+    background-color: #fff;
+    position: fixed;
+    top: 66px;
+    left: 0;
+    right: 0;
+
  }
 .categories-section{
     display: flex;
@@ -40,6 +46,12 @@ header{
     align-items: center;
     padding: 1rem;
     margin-left: 12rem;
+    background-color: #fff;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 100;
+
 }
 
 .searchbar{
@@ -92,9 +104,12 @@ header{
     border-radius: 50%;
     background-color: #AAA;
 }
+
 .voice{
-    margin-left: -105px;
-    width: 25px;
+    margin-left: -197px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: rgb(195, 192, 192);
 }
 
 /* Tooltip styling */
