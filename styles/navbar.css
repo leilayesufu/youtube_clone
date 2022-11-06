@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+.categories{
+    padding: 1rem 2rem ;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    margin-left: 12rem;
+    background-color: #fff;
+    position: static;
+    top: 66px;
+    left: 0;
+    right: 0;
+ }
+.categories-section{
+    display: flex;
+    overflow: hidden;
+}
+.category{
+    margin-right: 1rem;
+    word-wrap: none;
+    white-space: nowrap;
+    border: 1px solid #CCC;
+    border-radius: 900px;
+    background-color: #E7E7E7;
+    padding: .5rem 1rem;
+    font-family: Roboto;
+    cursor: pointer;
+    transition: background-color 180ms;
+
+}
+.category:hover{
+    background-color: #DDD;    
+}
+.category.active{
+    background-color: #606060;
+    color: white;
+    border-color: #EEE;
+}
+.category:last-child{
+    margin-right: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 12rem;
+    background-color: #fff;
+    position: static;
+    right: 0;
+    left: 0;
+    z-index: 100;
+
+}
+
+.searchbar{
+    display: flex;
+    flex-grow: 1;
+    margin: 0 2rem 0 3rem;
+     
+} 
+.search-input{
+    width: 80%;
+    font-family: Roboto;
+    font-size: inherit;
+    padding: .4em;
+    border: 1px solid #777;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.search-btn{
+    display: flex;
+    align-items: center;
+    padding: 0 1.25rem;
+    border: 1px solid #777;
+    background-color: #F8F8F8;
+    border-left:  none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+}
+
+.search-btn:hover{
+    background-color: #F0F0F0;
+}
+
+.menu-icons{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 1.5rem;
+    align-items: center;    
+}
+
+.menu-icons img{
+    width: 30px;
+    height: 30px;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #AAA;
+}
+
+.voice{
+    margin-left: -197px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: rgb(195, 192, 192);
+}
+
+/* Tooltip styling */
+.search-btn,
+.voiceSearchBtn,
+.uploadIconContainer,
+.appsContainer,
+.notificationsIconContainer,
+.profileIconContainer,
+.homeContainer,
+.exploreContainer,
+.subscriptionContainer,
+.libraryContainer,
+.historyContainer,
+.playlistContainer,
+.messageContainer,
+.showMoreContainer,
+.profileContainer{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.search-btn .tooltip,
+.voiceSearchBtn .tooltip,
+.uploadIconContainer .tooltip,
+.appsContainer .tooltip,
+.notificationsIconContainer .tooltip,
+.profileIconContainer .tooltip,
+.homeContainer .tooltip,
+.exploreContainer .tooltip,
+.subscriptionContainer .tooltip,
+.libraryContainer .tooltip,
+.historyContainer .tooltip,
+.playlistContainer .tooltip,
+.messageContainer .tooltip,
+.showMoreContainer .tooltip,
+.profileContainer .tooltip{
+    position: absolute;
+    bottom:-30px;
+    background-color: gray;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 1s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.search-btn:hover .tooltip,
+.voiceSearchBtn:hover .tooltip,
+.uploadIconContainer:hover .tooltip,
+.appsContainer:hover .tooltip,
+.notificationsIconContainer:hover .tooltip,
+.profileIconContainer:hover .tooltip,
+.homeContainer:hover .tooltip,
+.exploreContainer:hover .tooltip,
+.subscriptionContainer:hover .tooltip,
+.libraryContainer:hover .tooltip,
+.historyContainer:hover .tooltip,
+.playlistContainer:hover .tooltip,
+.messageContainer:hover .tooltip,
+.showMoreContainer:hover .tooltip,
+.profileContainer:hover .tooltip{
+    opacity: 1;
+}
+
+/* Tooltip styling ends here */
