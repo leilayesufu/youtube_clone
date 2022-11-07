@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Video</title>
+        <meta name="description" content="To preview your youtube video">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/navbar.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/video_section.css">
+        <link rel="icon" href="./youtube_icon.ico">
+    </head>
+    <body>
+          <!-- header section -->
+          <header class="header">
+            <form class="searchbar">
+                <input class= "search-input" type="search"
+                placeholder="Search" aria-label="Search"/>
+                <button type="submit" class="search-btn">
+                    <img src="./images/icons/search.png"/> 
+                    <div class="tooltip">Search</div>
+                </button>    
+             </form>
+             <div class="menu-icons">
+                <a href="#" class="voiceSearchBtn">
+                    <img class="voice" src="./images/icons/voice-search-icon.svg" alt="Voice Search" />
+                    <div class="tooltip">Search With Your Voice</div>
+                </a>
+                <a href="#" class="uploadIconContainer">
+                    <img src="./images/icons/upload.svg" alt="Upload Video" /> 
+                    <div class="tooltip">Upload</div>
+                </a>
+                <a href="#" class="appsContainer">
+                    <img src="./images/icons/more.png" alt="Apps" /> 
+                    <div class="tooltip">Apps</div>
+                </a>
+                <a href="#" class="notificationsIconContainer">
+                    <img src="./images/icons/notifications.svg" alt="notifications" /> 
+                    <div class="tooltip">Notifications</div>
+                </a>
+                <a href="#" class="profileIconContainer">
+                    <img class="avatar " src="./images/sophia (1).jpeg" alt="Sophia logo"> 
+                    <div class="tooltip">Profile</div>
+                </a>
+             </div>
+        </header>
+        <!--categories section-->
+        <div class="categories">
+            <section class="categories-section">
+                <button class="category active">All</button>
+                <button class="category">Music</button>
+                <button class="category">Mixes</button>
+                <button class="category">Playlists</button>
+                <button class="category">Javascript</button>
+                <button class="category">Premier League</button>
+                <button class="category">Dance-pop</button>
+                <button class="category">Lo-fi</button>
+                <button class="category">Computer science</button>
+                <button class="category">CSS</button>
+            </section>
+        </div>
+
+        <!-- sidebar section -->
+
+        <section class="sidebar">
+            <a href="#"></a>
+                <img src="./images/icons/menu.png" alt="Menu-icon" 
+                class="menu_icon">
+            </a>
+            <a href="#"></a>
+                <img src="./images/icons/youtube.png" alt="YouTube Logo" 
+                class="youtube_logo">
+            </a>
+            <div class="shortcut-links">
+                <a href="#" class="homeContainer">
+                    <img src="./images/icons/home.png" alt="home logo">
+                    <p>Home</p>
+                    <div class="tooltip">Home</div>
+                </a>
+                <a href="#" class="exploreContainer">
+                    <img src="./images/icons/explore.png" alt="Explore logo">
+                    <p>Explore</p>
+                    <div class="tooltip">Explore</div>
+                </a>
+                <a href="#"class="subscriptionContainer"><img src="./images/icons/subscriprion.png" alt="Subscription logo"><p>Subscription</p>
+                    <div class="tooltip">Subscription</div>
+                </a>
+                <a href="#" class="libraryContainer"><img src="./images/icons/library.png" alt="Library logo"><p>Library</p>
+                    <div class="tooltip">Library</div>
+                </a>
+                <a href="#" class="historyContainer"><img src="./images/icons/history.png" alt="History logo"><p>History</p>
+                    <div class="tooltip">History</div>
+                </a>
+                <a href="#" class="playlistContainer"><img src="./images/icons/playlist.png" alt="Playlist logo"><p>Playlist</p>
+                    <div class="tooltip">Playlist</div>
+                </a>
+                <a href="#" class="messageContainer"><img src="./images/icons/messages.png" alt="Messages logo"><p>Messages</p>
+                    <div class="tooltip">Messages</div>
+                </a>
+                <a href="#" class="showMoreContainer"><img src="./images/icons/show-more.png" alt="show_more logo"><p>Show More</p>
+                    <div class="tooltip">Show More</div>
+                </a>
+                <hr>
+            </div>
+            <div class="subscribed-list">
+                <h3>Subscriptions</h3>
+                <a href="#" class="profileContainer"><img src="./images/leila.jpeg" alt="leila logo"><p>Leila Yesufu</p><div class="tooltip">Leila Yesufu</div></a>
+                <a href="#" class="profileContainer"><img src="./images/sophia (1).jpeg" alt="Sophia logo"><p>Sophia Abubakar</p><div class="tooltip">Sophia Abubakar</div></a>
+                <a href="#" class="profileContainer"><img src="./images/Glory.jpg" alt="Glory logo"><p>Glory Okafor</p><div class="tooltip">Glory Okafor</div></a>
+                <a href="#" class="profileContainer"><img src="./images/valentina.jpg" alt="Valentina logo"><p>Valentina Onwuli</p><div class="tooltip">Valentina Onwuli</div></a>                  
+                <a href="#" class="profileContainer"><img src="./images/Ibraheem.jpg" alt="Valentina logo"><p>Ejibode Ibraheem</p><div class="tooltip">Ejibode Ibraheem</div></a>
+                <a href="#" class="profileContainer"><img src="./images/favouur.jpeg" alt="Valentina logo"><p>Ihuoma Favour</p><div class="tooltip">Ihuoma Favour</div></a>
+            </div>
+        </section>
+
+        <div class="videoGrid">
+            <div class="row">
+                <div class="playvideo">
+                    <video class="actualVideo" controls autoplay>
+                        <source src="videos/video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
