@@ -194,6 +194,6 @@ header {
   [class*="header"] {
     width: 60%;
     display: block;
-    margin-bottom: 19px;
+    margin-bottom: 18px;
   }
 }
