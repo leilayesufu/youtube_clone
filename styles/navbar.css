@@ -183,6 +183,8 @@ header {
   [class*="categories"] {
     width: 100%;
     display: block;
+    margin-bottom: auto;
+    margin-top: auto;
   }
 }
 
